@@ -1,3 +1,122 @@
+body {
+    display: grid;
+    grid-template-columns: 0.5fr 3fr;
+    grid-template-rows: 1fr 4fr;
+}
+
+.sidebar {
+    background-color: lightskyblue;
+}
+
+.content {
+    background-color: lightgray;
+
+}
+
+.logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.nav-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.nav-about {
+    margin-top: 4rem;
+}
+
+.header-top {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.search {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.user-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.header-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.greetings {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.greetings-img {
+    grid-row-start: 1 3;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.25fr 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.projects-header {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.project-card {
+    background-color: white;
+    border-radius: 5px;
+    border-left: 5px solid orange;
+}
+
+.content-right {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.announcements {
+    display: grid;
+    grid-template-rows: 0.25fr 1fr;
+}
+
+.announce-card {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.trending {
+    display: grid;
+    grid-template-rows: 0.25fr 1fr;
+}
+
+.trending-card {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.trend {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.trend>img {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
 img {
     width: 3rem;
 }
